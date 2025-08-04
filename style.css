@@ -5,25 +5,26 @@
 }
 
 section {
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     padding: 40px;
 }
 
 section .puntuaciones,
 section .comentarios {
-    background-color: violet;
+    /* background-color: violet; */
     padding: 20px;
     display: flex;
     gap: 20px;
+   
 }
 
 section .puntuaciones {
-    background-color: turquoise;
+    /* background-color: turquoise; */
     gap: 80px;
 }
 
 .puntuaciones div {
-    background-color: beige;
+    /* background-color: beige; */
       
 }
 
@@ -51,4 +52,43 @@ section .puntuaciones {
     font-size: 40px;
     width: 50%;
     margin-bottom: 20px;
+}
+
+.contenedor-valoracion:nth-child(1) {
+    align-self: flex-start;
+}
+
+.contenedor-valoracion:nth-child(2) {
+    align-self: center;
+}    
+
+.contenedor-valoracion:nth-child(3) {
+    align-self: flex-end;
+}
+
+.buyer {
+    display: flex;
+}
+
+img {
+    width: 80px;
+    border-radius: 80px;
+}
+
+.tomate {
+    align-items: center;
+    padding: 20px;
+    gap: 20px
+}
+
+.profile {
+    background-color: purple;
+    gap: 50px;
+    padding: 30px;
+    border-radius: 30px;
+    color: white
+}
+
+.tomate p {
+    color: palevioletred
 }
