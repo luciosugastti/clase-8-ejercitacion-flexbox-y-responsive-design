@@ -9,6 +9,7 @@ section {
     padding: 40px;
 }
 
+
 section .puntuaciones,
 section .comentarios {
     /* background-color: violet; */
@@ -31,6 +32,7 @@ section .puntuaciones {
 .puntuaciones-titulares {
     padding: 20px;
     width: 50%;
+    color: #91858f;
 }
 
 .puntuaciones-valoraciones {
@@ -40,18 +42,28 @@ section .puntuaciones {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+
+
 }
 
 .contenedor-valoracion {
     display: flex;
-    justify-content: center;
+    background-color: #f7f2f8;
+    justify-content: space-around;
     align-items: center;
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    color: #531f50;
+    font-weight: bold;
+    margin: -5px;
 }
 
 .puntuaciones-titulares h2 {
     font-size: 40px;
     width: 50%;
     margin-bottom: 20px;
+    color: #531f50;
 }
 
 .contenedor-valoracion:nth-child(1) {
@@ -71,7 +83,8 @@ section .puntuaciones {
 }
 
 img {
-    width: 80px;
+    width: 40px;
+    height: 50px;
     border-radius: 80px;
 }
 
@@ -82,13 +95,20 @@ img {
 }
 
 .profile {
-    background-color: purple;
+    background-color: #531f50;
     gap: 50px;
-    padding: 30px;
-    border-radius: 30px;
-    color: white
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    
+   
 }
 
 .tomate p {
     color: palevioletred
+}
+
+div .profile {
+    font-size: small;
+    padding: 30px;
 }
